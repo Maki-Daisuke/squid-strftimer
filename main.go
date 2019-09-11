@@ -20,7 +20,7 @@ import (
 )
 
 const defaultPort = 36059
-const defaultFormat = `[%Y-%m-%dT%H:%M:%S.%fZ]`
+const defaultFormat = `%Y-%m-%dT%H:%M:%S.%fZ`
 
 func formatTime(t time.Time) string {
 	return timeutil.Strftime(&t, format)
