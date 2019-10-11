@@ -89,6 +89,12 @@ Usage: squid-strftimer [-h] [--format FORMAT] [--port PORT] [FILE]
   - default: `"-"`
 
 
+License
+-------
+
+MIT License
+
+
 Author
 ------
 
